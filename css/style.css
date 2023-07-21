@@ -1,6 +1,9 @@
 :root{--main-cl
 }
-*{box-sizing: border-box;} 
+*{box-sizing: border-box;}
+
+
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -24,11 +27,11 @@ margin-bottom: 0;}
 }
 
 
-
-
-.header {padding-top: 25px;
+.header { 
+  padding-top: 25px;
 padding-bottom: 25px;}
-
+.header-nav {display: flex;}
+ 
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -66,6 +69,28 @@ padding-bottom: 25px;}
 .headet-contacts-list:focus {
   color: var(--ocean, #404bbf);
 }
+  .header-container {display: flex;
+  align-items: center;}
+.team-logo-list {display: flex;}
+.doing-list {display: flex;}
+.info-list {display: flex;}
+.header-menu-list {display: flex; 
+  gap: 40px;
+}
+.header-contacts-item { display: flex;
+  gap: 40px;
+ 
+}
+.header-navigation {display: flex;
+align-items: center;
+gap: 72px;}
+
+
+
+
+
+.header-contacts {margin-left: auto;}
+
 
 
 .effective-title {
@@ -89,6 +114,11 @@ padding-bottom: 25px;}
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+background: var(--iris, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
   
   
 }
@@ -96,13 +126,11 @@ padding-bottom: 25px;}
   
   background: var(--ocean, #404bbf);
   
-  
-  
 }
 .effective-title-btn:focus{background-color: #404BBF;}
 .info-section {padding-top: 120px;
 padding-bottom: 120px;}
-.info-list {}
+.info-list { gap: 24px;}
   
 .info-item-logo {
   color: var(--navyblue, #2e2f42);
@@ -130,7 +158,9 @@ padding-bottom: 120px;}
   text-align: center;
 }
 .doing-list {padding-top:72px ;
-  padding-bottom: 120px;}
+  padding-bottom: 120px;
+gap: 24px;}
+
 
 .team-logo{
   color: #2e2f42;
@@ -144,12 +174,17 @@ padding-bottom: 120px;}
 }
 .team-logo-list {
  background-color: #F4F4FD;
+ gap: 24px;
 }
  .team-logo-item{background-color: #FFFFFF;
-padding-bottom: 120px;
+  margin-bottom: 120px;
+  
+
 border-radius: 0px 0px 4px 4px;
 background: var(--white, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);}
+
+
 
 .team-name {
   color: var(--navyblue, #2e2f42);
@@ -221,6 +256,9 @@ letter-spacing: 0.04em;
 color: #4d5ae5;
 background-color:#F4F4FD;
 cursor: pointer;
+border-radius: 4px;
+border: 1px solid var(--cornflower, #E7E9FC);
+background: var(--cloud, #F4F4FD);
 }
 .pr-btn-all:hover 
 {color:#FFFFFF;
@@ -312,4 +350,25 @@ padding-bottom: 72px;}
   padding-right: 156px;
   margin: 0 auto;
   outline: 2px solid red;
+
 }
+.pr-btn {display: flex;
+gap: 24px;
+align-items: center;
+justify-content: center;
+padding: 12px 24px; 
+
+  
+}
+.pr-card {display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-bottom: 48px;
+
+
+}
+
+.pr-btn-item {padding-bottom: 32px;}
+
+
+.pr-btn-img {}
