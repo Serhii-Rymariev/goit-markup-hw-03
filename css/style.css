@@ -2,7 +2,7 @@
 }
 *{box-sizing: border-box;}
 
-
+img {display: block;}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -361,14 +361,12 @@ padding: 12px 24px;
   
 }
 .pr-card {display: flex;
-  flex-wrap: wrap;
-  gap: 22px;
-  margin-bottom: 48px;
-
+ flex-wrap: wrap;
+ gap: 48px 22px;
+ 
 
 }
 
-.pr-btn-item {padding-bottom: 32px;}
 
 
-.pr-btn-img {}
+
